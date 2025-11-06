@@ -11,3 +11,15 @@
     "axios": "^1.6.0"
   }
 }
+{
+  "name": "n8n-video-combiner",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "node server.js",
+    "build": "apt-get update && apt-get install -y ffmpeg"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "axios": "^1.6.0"
+  }
+}
